@@ -8,10 +8,10 @@ A full-stack complaint management platform built for manufacturing plant environ
 
 | Service | URL |
 |---|---|
-| Frontend | *Coming soon* |
-| Backend API Docs | *Coming soon* |
+| Frontend | [hrfeedbacksystem.vercel.app](https://hrfeedbacksystem.vercel.app) |
+| Backend API Docs | [hr-feedback-system-1.onrender.com/docs](https://hr-feedback-system-1.onrender.com/docs) |
 
-> Login credentials for demo available on request.
+> Note: The backend runs on Render's free tier and may take ~30 seconds to wake up on first request after inactivity.
 
 ---
 
