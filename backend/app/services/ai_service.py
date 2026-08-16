@@ -48,7 +48,7 @@ Respond ONLY with valid JSON, no explanation."""
 
     try:
         resp = await get_groq().chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.1,
             max_tokens=100,
@@ -75,7 +75,7 @@ Respond ONLY with a JSON object: {{"priority": "urgent"}} or {{"priority": "norm
 
     try:
         resp = await get_groq().chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.1,
             max_tokens=20,
@@ -99,7 +99,7 @@ Respond ONLY with valid JSON."""
 
     try:
         resp = await get_groq().chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.1,
             max_tokens=50,
@@ -129,7 +129,7 @@ Respond ONLY with valid JSON."""
 
     try:
         resp = await get_groq().chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.1,
             max_tokens=600,
@@ -167,7 +167,7 @@ Respond ONLY with valid JSON."""
 
     try:
         resp = await get_groq().chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
             max_tokens=300,
@@ -215,7 +215,7 @@ Rules:
 
     try:
         resp = await get_groq().chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.4,
             max_tokens=400,
@@ -311,7 +311,7 @@ Return ONLY valid JSON:
 
     try:
         resp = await get_groq().chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
             max_tokens=400,
